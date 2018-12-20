@@ -15,8 +15,8 @@ author: admin
 
 [https://blog.csdn.net/norsd/article/details/50409585](https://blog.csdn.net/norsd/article/details/50409585)
 
-### bug代码重现,Winodws核心编程书中的20.2.5节的一个死锁例子
-```
+### bug代码重现
+``` Winodws核心编程书中的20.2.5节的一个死锁例子
 BOOL WINAPI DllMain(HINSTANCE hInstDll, DWORD fdwReason, PVOID fImpLoad)
 {
 	HANDLE hThread;
